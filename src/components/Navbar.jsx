@@ -91,14 +91,14 @@ const Navbar = () => {
                             Twitter <FaTwitter size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                    {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                         <a className='flex items-center justify-between w-full text-gray-300 ' href="/">
                             Email <HiOutlineMail size={30} />
                         </a>
-                    </li>
+                    </li> */}
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a className='flex items-center justify-between w-full text-gray-300 ' href="/">
-                            Resume <BsFillPersonLinesFill size={30} />
+                        <a className='flex items-center justify-between w-full text-gray-300 ' href="https://drive.google.com/file/d/1qfcAZMTdLYSH-7sobEz7jEOqdmkLLnMB/view?usp=drive_link">
+                            Currículo<BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
