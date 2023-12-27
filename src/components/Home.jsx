@@ -24,7 +24,7 @@ const Home = () => {
                 </p>
 
                 <div>
-                    <button className='text-white group border-2 px-6 py-3 my-5 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]'>View Work
+                    <button className='text-white group border-2 px-6 py-3 my-5 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]'>Ver trabajo
                         <span className='duration-300 group-hover:rotate-90'>
                             <HiArrowNarrowRight className='ml-3' />
                         </span>

@@ -24,18 +24,14 @@ const Work = () => {
                         backgroundRepeat: 'no-repeat',
                     }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='font-bold tracking-wider text-black text-1xl'>
+                        <div className='flex flex-col items-center justify-center opacity-0 group-hover:opacity-100'>
+                            <span className='font-bold tracking-wider text-center text-black text-1xl'>
                                 Barça Licensing & Merchandising
                             </span>
                             <div className='pt-8 text-center'>
                                 {/* link of the project on internet */}
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
-                                </a>
-                                {/* link the code of the project on GitHub */}
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
+                                <a href="https://www.linkedin.com/company/fc-barcelona/">
+                                    <button className='px-4 py-3 m-2 font-bold text-center text-gray-700 bg-white rounded-lg text-md'>¡Echa un vistazo!</button>
                                 </a>
                             </div>
                         </div>
@@ -48,16 +44,13 @@ const Work = () => {
                         backgroundRepeat: 'no-repeat',
                     }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='font-bold tracking-wider text-black text-1xl'>
+                        <div className='flex flex-col items-center justify-center opacity-0 group-hover:opacity-100'>
+                            <span className='font-bold tracking-wider text-center text-black text-1xl'>
                                 Ametller Origen
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
-                                </a>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
+                                <a href="https://www.linkedin.com/company/grup-ametller-origen/">
+                                    <button className='px-4 py-3 m-2 font-bold text-center text-gray-700 bg-white rounded-lg text-md'>¡Echa un vistazo!</button>
                                 </a>
                             </div>
                         </div>
@@ -71,16 +64,13 @@ const Work = () => {
                         backgroundRepeat: 'no-repeat',
                     }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='font-bold tracking-wider text-black text-1xl'>
+                        <div className='flex flex-col items-center justify-center opacity-0 group-hover:opacity-100'>
+                            <span className='font-bold tracking-wider text-center text-black text-1xl'>
                                 Vernon Stores Ltd
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
-                                </a>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
+                                <a href="https://www.linkedin.com/company/vernon-catering/">
+                                    <button className='px-4 py-3 m-2 font-bold text-center text-gray-700 bg-white rounded-lg text-md'>¡Echa un vistazo!</button>
                                 </a>
                             </div>
                         </div>
@@ -93,16 +83,13 @@ const Work = () => {
                         backgroundRepeat: 'no-repeat',
                     }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='font-bold tracking-wider text-black text-1xl'>
+                        <div className='flex flex-col items-center justify-center opacity-0 group-hover:opacity-100'>
+                            <span className='font-bold tracking-wider text-center text-black text-1xl'>
                                 Temple Recruitment - MK Human Resources Limited
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
-                                </a>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
+                                <a href="https://www.linkedin.com/company/templerecruitment/">
+                                    <button className='px-4 py-3 m-2 font-bold text-center text-gray-700 bg-white rounded-lg text-md'>¡Echa un vistazo!</button>
                                 </a>
                             </div>
                         </div>
@@ -116,25 +103,22 @@ const Work = () => {
                         backgroundRepeat: 'no-repeat',
                     }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='font-bold tracking-wider text-black text-1xl'>
+                        <div className='flex flex-col items-center justify-center opacity-0 group-hover:opacity-100'>
+                            <span className='font-bold tracking-wider text-center text-black text-1xl'>
                                 Interaction Logística e Comércio Ltda
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
-                                </a>
-                                <a href="/">
-                                    <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
+                                <a href="https://www.econodata.com.br/consulta-empresa/04218292000194-INTERACTION-LOGISTICA-E-COMERCIO-INTERNACIONAL-LTDA">
+                                    <button className='px-4 py-3 m-2 font-bold text-center text-gray-700 bg-white rounded-lg text-md'>¡Echa un vistazo!</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${''})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                        {/* Hover Effects */}
+                    {/* <div style={{ backgroundImage: `url(${''})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                      
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='font-bold tracking-wider text-black text-1xl'>
+                            <span className='font-bold tracking-wider text-center text-black text-1xl'>
                                 Interaction Logística e Comércio Ltda
                             </span>
                             <div className='pt-8 text-center'>
@@ -146,7 +130,7 @@ const Work = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
