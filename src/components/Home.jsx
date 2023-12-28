@@ -11,9 +11,9 @@ const Home = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'inherit',
             backgroundRepeat: 'no-repeat',
-        }} name='home' className='w-full h-screen bg-[#0a192f]' >
+        }} name='home' className='w-full h-[50rem] bg-[#0a192f]' >
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <div className='max-w-[1000px] mx-auto  pt-[70px] px-8 flex flex-col justify-center h-full'>
                 <p className='text-[#28bdec]'>Hola, me llamo</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6fd]'>Diego Carvalho</h1>
 
@@ -24,7 +24,7 @@ const Home = () => {
                 </p>
 
                 <div>
-                    <button className='text-white group border-2 px-6 py-3 my-5 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]'>Ver trabajo
+                    <button className='text-white group border-2 px-6 py-3 my-1 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]'>Ver trabajo
                         <span className='duration-300 group-hover:rotate-90'>
                             <HiArrowNarrowRight className='ml-3' />
                         </span>

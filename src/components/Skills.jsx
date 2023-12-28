@@ -7,9 +7,9 @@ import AlterdataIcon from '../assets/images/alterdata.png';
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full h-screen bg-[#0a192f]  text-gray-300'>
+        <div name='skills' className=' bg-[#0a192f]  text-gray-300'>
             {/* Contanier */}
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full '>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-[#28bdec]'>Habilidades</p>
                     <p className='py-4'>// Estas son las herramientas con las que he trabajado</p>

@@ -5,14 +5,13 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/images/logo copy.png'
 import { Link } from 'react-scroll'
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px4 bg-[#0a192f] text-gray-300'>
-      <div>
+    <div className='fixed w-full h-[70px] flex justify-between items-center px4 bg-[#0a192f] text-gray-300'>
+      <div className='ml-4'>
         <img src={Logo} alt="Logo image" style={{ width: '100px' }} />
       </div>
 
@@ -46,12 +45,12 @@ const Navbar = () => {
       </ul>
 
       {/* hamburge */}
-      <div onClick={handleClick} className='z-10 md:hidden'>
+      <div onClick={handleClick} className='z-10 mr-3 md:hidden'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* mobile menu */}
-      <ul className={!nav ? 'hidden' : ' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : ' absolute top-0 left-0 w-full bg-[#0a192f] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
