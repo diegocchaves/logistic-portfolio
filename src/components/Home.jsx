@@ -1,14 +1,15 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-import { Link } from 'react-scroll'
 import Photo from '../assets/images/foto-gradient.png'
+import { Link } from 'react-scroll'
+
 
 const Home = () => {
     return (
         <div style={{
             backgroundImage: `linear-gradient(rgba(10,25,47, -20.95), rgba(10,25,47, 20.05)), url(${Photo})`,
             backgroundBlendMode: 'color-dodge',
-            backgroundSize: 'cover',
+            backgroundSize: 'inherit',
             backgroundPosition: 'inherit',
             backgroundRepeat: 'no-repeat',
         }} name='home' className='w-full h-[50rem] bg-[#0a192f]' >
@@ -22,16 +23,15 @@ const Home = () => {
                     Soy hábil en la manipulación segura de mercancías y en la utilización de sistemas de inventario para mantener registros precisos. Trabajar en equipo es fundamental para mí, y disfruto colaborando con colegas para garantizar un entorno de almacén productivo y ordenado.
                     Mi compromiso es contribuir al éxito operativo diario del almacén, aplicando mis habilidades y experiencia para cumplir con eficacia las tareas asignadas y mantener altos estándares de calidad.
                 </p>
-
                 <div>
-                    <button className='text-white group border-2 px-6 py-3 my-1 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]'>Ver trabajo
-                        <span className='duration-300 group-hover:rotate-90'>
-                            <HiArrowNarrowRight className='ml-3' />
-                        </span>
-                    </button>
-
+                    <Link to='about' smooth={true} duration={500}>
+                        <button className='text-white group border-2 px-6 py-3 my-1 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]'>Ver trabajo
+                            <span className='duration-300 group-hover:rotate-90'>
+                                <HiArrowNarrowRight className='ml-3' />
+                            </span>
+                        </button>
+                    </Link>
                 </div>
-
             </div>
         </div>
     )
