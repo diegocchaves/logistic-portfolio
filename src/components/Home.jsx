@@ -24,7 +24,7 @@ const Home = () => {
                     Mi compromiso es contribuir al éxito operativo diario del almacén, aplicando mis habilidades y experiencia para cumplir con eficacia las tareas asignadas y mantener altos estándares de calidad.
                 </p>
                 <div>
-                    <Link to='about' smooth={true} duration={500}>
+                    <Link to='work' smooth={true} duration={500}>
                         <button className='text-white group border-2 px-6 py-3 my-1 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]'>Ver trabajo
                             <span className='duration-300 group-hover:rotate-90'>
                                 <HiArrowNarrowRight className='ml-3' />
