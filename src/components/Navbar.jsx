@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assets/images/logo copy.png'
+import Logo from '../assets/images/logoDC.svg'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -10,9 +10,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[70px] flex justify-between items-center px4 bg-[#0a192f] text-gray-300'>
-      <div className='ml-4'>
-        <img src={Logo} alt="Logo image" style={{ width: '100px' }} />
+    <div className='fixed w-full h-[80px] flex justify-between items-center px4 bg-[#0a192f] text-gray-300'>
+      <div className='flex mt-4'>
+        <img src={Logo} alt="Logo image" style={{ width: '100px', height: '60px' }} />
       </div>
 
       {/* menu */}
