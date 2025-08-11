@@ -1,39 +1,57 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div name='about' className='w-full bg-[#0a192f] text-gray-300' >
-      <div className='flex flex-col items-center justify-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-1 sm:grid-cols-2 px-4 gap-8'>
-          <div className='pt-2 pb-8 sm:text-right'>
-            <p className='text-4xl font-bold inline border-b-4 border-[#28bdec]'>
-              Sobre Mí
+    <div
+      name="about"
+      className="w-full bg-[#0a192f] text-gray-300 py-10 md:py-24"
+    >
+      <div className="flex flex-col items-center justify-center w-full h-full">
+        <div className="max-w-[1000px] w-full grid grid-cols-1 sm:grid-cols-2 px-4 gap-8">
+          <div className="pt-2 pb-8 sm:text-right">
+            <p className="text-4xl font-bold inline border-b-4 border-[#28bdec]">
+              About Me
             </p>
           </div>
           <div></div>
         </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-2 px-4'>
-          <div className='text-2xl font-bold sm:text-right'>
-            <p>¡Hola! Soy Diego, encantado de conocerte.</p>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-2 px-4">
+          <div className="mr-8 text-2xl font-bold sm:text-right">
+            <p>Hello! I'm Diego, nice to meet you.</p>
           </div>
           <div>
-            <p>Soy un apasionado asistente de almacén con más de 10 años de experiencia, especializado en el control de diversos programas de gestión de almacenes, como flujos de trabajo en Excel, PDAs (asistentes digitales personales), KPI (indicadores clave de rendimiento) y más.</p>
+            <p>
+              I am a passionate warehouse assistant with over 10 years of
+              experience, specializing in the management of various warehouse
+              management programs, such as workflow in Excel, PDAs (personal
+              digital assistants), KPIs (key performance indicators), and more.
+            </p>
             <br />
-            <p>Disfruto optimizando operaciones logísticas y garantizando la eficiencia en cada etapa del proceso. Mi experiencia incluye la implementación y gestión de sistemas de seguimiento de inventario, coordinación de envíos y el manejo de datos para mejorar la toma de decisiones en el almacén.</p>
+            <p>
+              I enjoy optimizing logistics operations and ensuring efficiency at
+              every stage of the process. My experience includes implementing
+              and managing inventory tracking systems, coordinating shipments,
+              and handling data to improve decision-making in the warehouse.
+            </p>
             <br />
-            <p>Además, poseo habilidades en el manejo de flujos de trabajo complejos, asegurando la precisión en la gestión de inventario y la mejora continua de procesos. Mi capacidad para trabajar con diversas tecnologías y mi enfoque proactivo hacen de mí un miembro valioso para cualquier equipo de almacén.</p>
+            <p>
+              In addition, I have skills in handling complex workflows, ensuring
+              accuracy in inventory management and continuous process
+              improvement. My ability to work with various technologies and my
+              proactive approach make me a valuable member of any warehouse
+              team.
+            </p>
             <br />
-            <p className='text-1xl sm:text-1xl font-bold text-[#ccd6fd]'>
-              ¿Qué oportunidades surgirían con un asistente de almacén apasionado y proactivo,
-              con una sólida experiencia de 10 años y la capacidad para optimizar cualquier aspecto de la gestión de almacenes?</p>
+            <p className="text-1xl sm:text-1xl font-bold text-[#ccd6fd]">
+              What opportunities could arise with a passionate and proactive
+              warehouse assistant, with a solid 10-year experience and the
+              ability to optimize any aspect of warehouse management?
+            </p>
           </div>
         </div>
-
       </div>
     </div>
+  );
+};
 
-
-  )
-}
-
-export default About
+export default About;

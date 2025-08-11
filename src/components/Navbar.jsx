@@ -9,14 +9,14 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   const links = [
     { to: "Home", link: "/" },
-    { to: "About", link: "/about" },
-    { to: "Skills", link: "/skills" },
-    { to: "Work", link: "/work" },
-    { to: "Contact", link: "/contact" },
+    { to: "About", link: "about" },
+    { to: "Skills", link: "skills" },
+    { to: "Work", link: "work" },
+    { to: "Contact", link: "contact" },
   ];
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-center items-center px4 md:px-6 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-center items-center px4 md:px-6 bg-[#0a192fe6] text-gray-300  ">
       <div className="flex items-center justify-start w-full max-w-[1000px]">
         <img
           src={Logo}
@@ -39,6 +39,8 @@ const Navbar = () => {
         <a
           className="hover:text-[#1da1f2] cursor-pointer px-3"
           href="https://drive.google.com/file/d/1qfcAZMTdLYSH-7sobEz7jEOqdmkLLnMB/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Curriculum
         </a>
