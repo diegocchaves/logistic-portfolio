@@ -24,7 +24,8 @@ const Home = () => {
         </h1>
 
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Warehouse Assistant.
+          I'm a Warehouse <br />
+          Assistant.
         </h2>
         <p className="text-gray-300 py-4 max-w-[700px]">
           With solid experience as a warehouse assistant, I have played a key
@@ -39,7 +40,7 @@ const Home = () => {
           experience to efficiently complete assigned tasks and maintain high
           quality standards.
         </p>
-        <div>
+        <div className="mt-3">
           <Link to="work" smooth={true} duration={500}>
             <button className="text-white group border-2 px-6 py-3 my-1 flex items-center hover:bg-[#28bdec] hover:border-[#28bdec]">
               See work

@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   const links = [
-    { to: "Home", link: "/" },
+    { to: "Home", link: "home" },
     { to: "About", link: "about" },
     { to: "Skills", link: "skills" },
     { to: "Work", link: "work" },
@@ -65,7 +65,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : " absolute top-0 left-0 w-full bg-[#0a192f] flex flex-col justify-center items-center"
+            : " absolute top-0 left-0 w-full bg-[#0a192f] flex flex-col justify-center items-center h-screen md:h-full"
         }
       >
         <li className="py-6 text-4xl">
@@ -118,6 +118,8 @@ const Navbar = () => {
             <a
               className="flex items-center justify-between w-full text-gray-300 "
               href="https://drive.google.com/file/d/1qfcAZMTdLYSH-7sobEz7jEOqdmkLLnMB/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Currículo <BsFillPersonLinesFill size={30} />
             </a>
