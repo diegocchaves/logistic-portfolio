@@ -83,30 +83,30 @@ const Navbar = () => {
             : " absolute top-0 left-0 w-full bg-[#0a192f] flex flex-col justify-center items-center h-screen md:h-full"
         }
       >
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+        {links.map(({ to, link }) => (
+          <li
+            key={link}
+            className="py-6 text-2xl hover:text-[#1da1f2] cursor-pointer"
+          >
+            <Link
+              to={link}
+              smooth={true}
+              duration={500}
+              onClick={() => setNav(false)}
+            >
+              {to.charAt(0).toUpperCase() + to.slice(1)}
+            </Link>
+          </li>
+        ))}
+        <li className="py-6 text-2xl hover:text-[#1da1f2] cursor-pointer">
+          <a
+            href="https://drive.google.com/file/d/1qfcAZMTdLYSH-7sobEz7jEOqdmkLLnMB/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setNav(false)}
+          >
+            Curriculum
+          </a>
         </li>
       </ul>
 
