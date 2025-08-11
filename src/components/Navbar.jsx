@@ -1,12 +1,13 @@
 import { Link } from "react-scroll";
-import React, { useState } from "react";
 import { FaBars, FaTimes, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { useState } from "react";
 import Logo from "../assets/images/logoDC.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
   const links = [
     { to: "Home", link: "/" },
     { to: "About", link: "about" },
@@ -18,11 +19,19 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-center items-center px4 md:px-6 bg-[#0a192fe6] text-gray-300  ">
       <div className="flex items-center justify-start w-full max-w-[1000px]">
-        <img
-          src={Logo}
-          alt="Logo image"
-          style={{ width: "80px", height: "40px" }}
-        />
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          href="home"
+          className="cursor-pointer"
+        >
+          <img
+            src={Logo}
+            alt="Logo"
+            style={{ width: "80px", height: "40px" }}
+          />
+        </Link>
       </div>
       {/* menu */}
       <ul className="hidden text-sm md:flex">
