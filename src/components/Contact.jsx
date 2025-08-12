@@ -59,6 +59,17 @@ const Contact = () => {
     setTimeout(() => setResultMessage(""), 5000);
   };
 
+  const inputs = [
+    { name: "name", type: "text", placeholder: "John Doe", required: true },
+    {
+      name: "email",
+      type: "email",
+      placeholder: "you@company.com",
+      required: true,
+    },
+    { name: "message", type: "textarea", placeholder: "Your Message", rows: 5 },
+  ];
+
   return (
     <section
       name="contact"
@@ -66,7 +77,7 @@ const Contact = () => {
     >
       <div className="flex flex-col text-center text-gray-300 md:py-10">
         <p className="inline text-lg font-bold md:text-xl">[ Contact ]</p>
-        <p className="py-6 text-[15px] md:text-lg">
+        <p className="py-4">
           //Submit the form below or shoot me an email -
           diegocchaves21@gmail.com
         </p>
@@ -97,49 +108,27 @@ const Contact = () => {
           value="Micro Actions Form"
         ></input>
 
-        <div className="mb-6">
-          <label htmlFor="name" className="block mb-2 text-sm ">
-            Full Name
-          </label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="John Doe"
-            required
-            autoFocus
-            className="w-full px-3 py-2 text-black placeholder-gray-400 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#0edef1] focus:border-indigo-300"
-          />
-        </div>
-        <div className="mb-6">
-          <label
-            htmlFor="email"
-            className="block mb-2 text-sm custom-placeholder-color"
-          >
-            Email Address
-          </label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="you@company.com"
-            required
-            autoFocus
-            className="w-full px-3 py-2 text-black placeholder-gray-400 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#0edef1] focus:border-indigo-300 "
-          />
-        </div>
-        <div className="mb-6">
-          <label htmlFor="message" className="block mb-2 text-sm">
-            Your Message
-          </label>
-          <textarea
-            rows={5}
-            name="message"
-            id="message"
-            placeholder="Your Message"
-            className="w-full px-3 py-2 text-black placeholder-gray-400 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-[#0edef1] focus:border-indigo-300 "
-          ></textarea>
-        </div>
+        {inputs.map((input) => (
+          <div className="mb-4" key={input.name}>
+            {input.type === "textarea" ? (
+              <textarea
+                name={input.name}
+                placeholder={input.placeholder}
+                rows={input.rows || 3}
+                className="w-full p-3 bg-[#112240] border border-gray-700 rounded-md focus:outline-none focus:border-[#0194c1] transition-colors duration-300"
+                required={input.required}
+              ></textarea>
+            ) : (
+              <input
+                type={input.type}
+                name={input.name}
+                placeholder={input.placeholder}
+                className="w-full p-3 bg-[#112240] border border-gray-700 rounded-md focus:outline-none focus:border-[#0194c1] transition-colors duration-300"
+                required={input.required}
+              />
+            )}
+          </div>
+        ))}
         <div className="mb-6">
           <button
             type="submit"
