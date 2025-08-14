@@ -33,7 +33,7 @@ const SuccessStories = () => {
       text: "Medico Pediátra",
       story:
         "Com o Cuidando do Money, consegui gerenciar meus empréstimos e criar um plano de aposentadoria seguro, permitindo-me focar no crescimento da minha carreira médica.",
-      image: avatar2,
+      image: avatar3,
     },
   ];
 
