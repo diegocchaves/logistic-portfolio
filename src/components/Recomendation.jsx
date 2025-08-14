@@ -4,7 +4,7 @@ import "swiper/css/navigation"; // Import Swiper navigation styles
 import "swiper/css/pagination"; // Import Swiper pagination styles
 // Import Swiper modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { FaMedal } from "react-icons/fa";
+import { MdWorkspacePremium } from "react-icons/md";
 import avatar1 from "../assets/images/avatar1.svg";
 import avatar2 from "../assets/images/avatar2.svg";
 import avatar3 from "../assets/images/avatar3.svg";
@@ -41,13 +41,14 @@ const SuccessStories = () => {
     <section className="bg-[#0a192f]  text-gray-300 py-10 md:py-24">
       <div className="container px-4 mx-auto text-white ">
         <div className="flex items-center justify-center mb-8">
-          <FaMedal className="text-4xl text-[#28bdec] mr-4" />
+          <MdWorkspacePremium className="text-4xl text-[#28bdec] mr-4" />
           <h1 className="text-4xl font-bold">
-            Recommended By Previous Leaders
+            Words from People I've Worked Withs
           </h1>
         </div>
         <p className="mb-8 text-center">
-          Here are some success stories from people who....
+          Genuine feedback from colleagues and leaders who’ve seen my work in
+          action.
         </p>
 
         <Swiper
@@ -56,16 +57,16 @@ const SuccessStories = () => {
           slidesPerView={1} // Number of slides visible
           navigation // Enables navigation arrows
           pagination={{ clickable: true }} // Enables pagination bullets
-          autoplay={{ delay: 3500, disableOnInteraction: false }} // Enables autoplay
+          autoplay={{ delay: 6500, disableOnInteraction: false }} // Enables autoplay
           loop={true} // Enables infinite looping
           className="custom-swiper"
         >
           {stories.map((story) => (
             <SwiperSlide
               key={story.id}
-              className="flex items-center justify-center "
+              className="flex items-center justify-center p-10 rounded-lg shadow-lg"
             >
-              <div className="flex flex-col items-center justify-center p-8 rounded-lg h-[400px] shadow-lg ">
+              <div className="flex flex-col items-center justify-center p-8 rounded-lg h-[400px] ">
                 <img
                   src={story.image}
                   alt={story.name}

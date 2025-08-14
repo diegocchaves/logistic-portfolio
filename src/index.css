@@ -6,15 +6,70 @@
 
 @layer base {
   body {
-    @apply font-[Raleway];
-    @apply bg-[#000000];
-    @apply overflow-x-hidden;
+    font-family: "Raleway", sans-serif;
+    background-color: #000000;
+    overflow-x: hidden;
   }
 
   li {
-    @apply px-4;
-    @apply cursor-pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
   }
+}
+
+@layer components {
+  .custom-swiper .swiper-button-next,
+  .custom-swiper .swiper-button-prev {
+    color: #ffffff !important;
+    width: 30px !important;
+    height: 30px !important;
+    background: #fbfbfb34 !important;
+    border-radius: 50% !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)) !important;
+    transition: all 0.2s ease; /* smooth animation */
+  }
+
+  /* Hover effect */
+  .custom-swiper .swiper-button-next:hover,
+  .custom-swiper .swiper-button-prev:hover {
+    background: #ffffff98 !important; /* solid white background on hover */
+    color: #000000 !important; /* icon color changes on hover */
+    transform: scale(1.1); /* slightly enlarges */
+  }
+
+  .custom-swiper .swiper-button-next::after,
+  .custom-swiper .swiper-button-prev::after {
+    font-size: 1rem !important;
+    color: #ffffff !important;
+    filter: blur(0.5px);
+    font-weight: 600 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease; /* smooth color transition */
+  }
+
+  /* Optional: icon color change on hover */
+  .custom-swiper .swiper-button-next:hover::after,
+  .custom-swiper .swiper-button-prev:hover::after {
+    color: #000000 !important;
+  }
+  .swiper-pagination-bullet {
+    background-color: #ffffff;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #007bff;
+    margin-top: 10px;
+  }
+}
+
+.custom-swiper {
+  width: 900px;
+  height: 450px;
+  margin: 0 auto;
 }
 
 .content-div {
