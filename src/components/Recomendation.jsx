@@ -1,11 +1,13 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react"; // Import Swiper React components
 import "swiper/css"; // Import Swiper styles
 import "swiper/css/navigation"; // Import Swiper navigation styles
 import "swiper/css/pagination"; // Import Swiper pagination styles
 // Import Swiper modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { FaMedal } from "react-icons/fa";
+import avatar1 from "../assets/images/avatar1.svg";
+import avatar2 from "../assets/images/avatar2.svg";
+import avatar3 from "../assets/images/avatar3.svg";
 
 const SuccessStories = () => {
   const stories = [
@@ -15,7 +17,7 @@ const SuccessStories = () => {
       text: "Full Stack Developer",
       story:
         "O Cuidando do Money me ajudou a organizar minhas finanças como freelancer, permitindo-me economizar para o futuro e investir na minha carreira.",
-      image: "/avatar1.svg",
+      image: avatar1,
     },
     {
       id: 2,
@@ -23,7 +25,7 @@ const SuccessStories = () => {
       text: "Enfermeria",
       story:
         "Graças ao Cuidando do Money, aprendi a controlar meu orçamento, criar um fundo de emergência e alcançar meus objetivos financeiros.",
-      image: "/avatar2.svg",
+      image: avatar2,
     },
     {
       id: 3,
@@ -31,7 +33,7 @@ const SuccessStories = () => {
       text: "Medico Pediátra",
       story:
         "Com o Cuidando do Money, consegui gerenciar meus empréstimos e criar um plano de aposentadoria seguro, permitindo-me focar no crescimento da minha carreira médica.",
-      image: "/avatar3.svg",
+      image: avatar2,
     },
   ];
 
@@ -39,7 +41,7 @@ const SuccessStories = () => {
     <section className="bg-[#0a192f]  text-gray-300 py-10 md:py-24">
       <div className="container px-4 mx-auto text-white ">
         <div className="flex items-center justify-center mb-8">
-          <VscWorkspaceTrusted className="text-4xl text-[#28bdec] mr-4" />
+          <FaMedal className="text-4xl text-[#28bdec] mr-4" />
           <h1 className="text-4xl font-bold">
             Recommended By Previous Leaders
           </h1>
