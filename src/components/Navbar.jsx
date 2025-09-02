@@ -25,7 +25,7 @@ const Navbar = () => {
     },
     {
       label: "Curriculum",
-      href: "https://drive.google.com/file/d/1qfcAZMTdLYSH-7sobEz7jEOqdmkLLnMB/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1oDmwvS3NCWhG2KYV1YxA-BesQ7TktStW/view?usp=drive_link",
       icon: <BsFillPersonLinesFill size={30} />,
       bgColor: "#565f69",
     },

@@ -25,12 +25,12 @@ const Home = () => {
 
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a Warehouse <br />
-          Assistant.
+          Specialist.
         </h2>
         <p className="text-gray-300 py-4 max-w-[700px]">
-          With solid experience as a warehouse assistant, I have played a key
-          role in the efficient management of logistics operations. My focus is
-          on the effective reception, classification, and distribution of
+          With more than 15 decades as a warehouse specialist, I have played a
+          key role in the efficient management of logistics operations. My focus
+          is on the effective reception, classification, and distribution of
           products, ensuring a smooth and organized workflow. I am skilled in
           the safe handling of goods and in using inventory systems to maintain
           accurate records. Teamwork is fundamental to me, and I enjoy

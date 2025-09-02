@@ -13,26 +13,26 @@ const SuccessStories = () => {
   const stories = [
     {
       id: 1,
-      name: "Diego Carvalho",
-      text: "Full Stack Developer",
+      name: "Ruy Jardim",
+      text: "CEO of Interaction Log. e Com. Ltda",
       story:
-        "O Cuidando do Money me ajudou a organizar minhas finanças como freelancer, permitindo-me economizar para o futuro e investir na minha carreira.",
+        "From the very beginning, Diego stood out for his reliability, dedication, and ability to quickly adapt to new challenges. He consistently delivered results with precision and professionalism, and his positive attitude made him an invaluable part of our team.",
       image: avatar1,
     },
     {
       id: 2,
-      name: "Cristina Retuerto",
-      text: "Enfermeria",
+      name: "Ruth Crevillen",
+      text: "Logistic Specialist and Supply Chain",
       story:
-        "Graças ao Cuidando do Money, aprendi a controlar meu orçamento, criar um fundo de emergência e alcançar meus objetivos financeiros.",
+        "Diego has a natural talent for organization and problem-solving. In our fast-paced environment, he not only kept operations running smoothly but also brought initiative and creativity to improve processes. His collaborative spirit and commitment were always evident.",
       image: avatar2,
     },
     {
       id: 3,
-      name: "Drª Ellen Fernandes",
-      text: "Medico Pediátra",
+      name: "Andrés Ortiz",
+      text: "",
       story:
-        "Com o Cuidando do Money, consegui gerenciar meus empréstimos e criar um plano de aposentadoria seguro, permitindo-me focar no crescimento da minha carreira médica.",
+        "Working with Diego was a guarantee of excellence. He combines strong technical knowledge with outstanding interpersonal skills, always building trust and motivating those around him. His work ethic and passion left a lasting impact on our team.",
       image: avatar3,
     },
   ];
@@ -43,7 +43,7 @@ const SuccessStories = () => {
         <div className="flex items-center justify-center mb-8">
           <MdWorkspacePremium className="text-4xl text-[#28bdec] mr-4" />
           <h1 className="text-4xl font-bold">
-            Words from People I've Worked Withs
+            Words from People I've Worked With
           </h1>
         </div>
         <p className="mb-8 text-center">
