@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am a passionate warehouse assistant with over 10 years of
+              I am a passionate warehouse specialist with over 15 years of
               experience, specializing in the management of various warehouse
               management programs, such as workflow in Excel, PDAs (personal
               digital assistants), KPIs (key performance indicators), and more.

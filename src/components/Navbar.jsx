@@ -62,7 +62,7 @@ const Navbar = () => {
       <div className="hidden text-sm md:flex ">
         <a
           className="hover:text-[#1da1f2] cursor-pointer px-3"
-          href="https://drive.google.com/file/d/1qfcAZMTdLYSH-7sobEz7jEOqdmkLLnMB/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1oDmwvS3NCWhG2KYV1YxA-BesQ7TktStW/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -100,7 +100,7 @@ const Navbar = () => {
         ))}
         <li className="py-6 text-2xl hover:text-[#1da1f2] cursor-pointer">
           <a
-            href="https://drive.google.com/file/d/1qfcAZMTdLYSH-7sobEz7jEOqdmkLLnMB/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1oDmwvS3NCWhG2KYV1YxA-BesQ7TktStW/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setNav(false)}
