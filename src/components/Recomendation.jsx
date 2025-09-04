@@ -40,7 +40,7 @@ const SuccessStories = () => {
       name: "Javi García",
       text: "Team Leader at Barça Licensing & Merchandising",
       story:
-        "Working with Diego was a guarantee of excellence. He combines strong technical knowledge with outstanding interpersonal skills, always building trust and motivating those around him. His work ethic and passion left a lasting impact on our team.",
+        "Diego was the kind of teammate everyone wants to work with—supportive, dependable, and always bringing good energy to the group. He had a unique ability to balance professionalism with approachability, which made collaboration smooth and enjoyable. His contribution was key to creating a strong and motivated team.",
       image: avatar4,
     },
   ];
