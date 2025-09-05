@@ -32,7 +32,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-center items-center px4 md:px-6 bg-[#0a192fe6] text-gray-300  ">
+    <div className="fixed w-full h-[80px] flex justify-center items-center px4 md:px-6 bg-[#0a192ff6] text-gray-300  ">
       <div className="flex items-center justify-start w-full max-w-[1000px]">
         <Link
           to="home"
