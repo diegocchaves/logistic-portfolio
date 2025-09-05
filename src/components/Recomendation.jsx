@@ -46,17 +46,16 @@ const SuccessStories = () => {
   ];
 
   return (
-    <section className="bg-[#0a192f]  text-gray-300 py-10 md:py-24">
-      <div className="container px-4 mx-auto text-white ">
-        <div className="flex flex-col items-center justify-center gap-3 mb-8">
-          <div className="flex flex-row items-center justify-center">
-            <MdWorkspacePremium className="text-4xl text-[#28bdec] mr-2" />
+    <section className="bg-[#0a192f] text-gray-300 py-10 md:py-24">
+      <div className="container px-4 mx-auto text-white">
+        <div className="flex flex-col items-center justify-center gap-3 text-center md:mb-8">
+          <div className="flex flex-col items-center justify-center mb-4 md:flex-row">
+            <MdWorkspacePremium className="text-5xl text-[#28bdec] md:mr-4 md:mb-0 mb-4" />
             <h1 className="text-4xl font-bold">
-              <span></span>
               Words from People I've Worked With
             </h1>
           </div>
-          <p className="mb-8 text-center text-gray-400">
+          <p className="text-gray-400 md:mb-8">
             Genuine feedback from colleagues and leaders who’ve seen my work in
             action.
           </p>
@@ -64,20 +63,20 @@ const SuccessStories = () => {
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={30} // Spacing between slides
-          slidesPerView={1} // Number of slides visible
-          navigation // Enables navigation arrows
-          pagination={{ clickable: true }} // Enables pagination bullets
-          autoplay={{ delay: 6500, disableOnInteraction: false }} // Enables autoplay
-          loop={true} // Enables infinite looping
+          spaceBetween={30}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 6500, disableOnInteraction: false }}
+          loop={true}
           className="custom-swiper"
         >
           {stories.map((story) => (
             <SwiperSlide
               key={story.id}
-              className="flex items-center justify-center p-10 rounded-lg shadow-lg"
+              className="flex items-center justify-center rounded-lg shadow-lg md:p-12 "
             >
-              <div className="flex flex-col items-center justify-center p-8 rounded-lg h-[400px] ">
+              <div className="flex flex-col items-center justify-center w-full h-full p-6 rounded-lg ">
                 <img
                   src={story.image}
                   alt={story.name}
@@ -86,11 +85,15 @@ const SuccessStories = () => {
                   height={150}
                   priority
                 />
-                <p className="mb-4 italic text-center text-gray-300 text-md">
+                <p className="mb-4 text-sm italic text-center md:text-base">
                   &quot;{story.story}&quot;
                 </p>
-                <h4 className="text-lg font-bold text-center">{story.name}</h4>
-                <p className="mt-2 text-xs italic text-center">{story.text}</p>
+                <h4 className="text-sm font-bold text-center text-gray-300 md:text-lg">
+                  {story.name}
+                </h4>
+                <p className="mt-2 text-xs italic text-center text-gray-400 md:text-sm">
+                  {story.text}
+                </p>
               </div>
             </SwiperSlide>
           ))}

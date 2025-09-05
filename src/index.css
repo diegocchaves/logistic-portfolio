@@ -30,7 +30,12 @@
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)) !important;
     transition: all 0.2s ease; /* smooth animation */
   }
-
+  @media (max-width: 768px) {
+    .custom-swiper .swiper-button-next,
+    .custom-swiper .swiper-button-prev {
+      display: none !important;
+    }
+  }
   /* Hover effect */
   .custom-swiper .swiper-button-next:hover,
   .custom-swiper .swiper-button-prev:hover {
@@ -56,11 +61,12 @@
   .custom-swiper .swiper-button-prev:hover::after {
     color: #000000 !important;
   }
-  .swiper-pagination-bullet {
-    background-color: #ffffff;
+  .custom-swiper .swiper-pagination-bullet {
+    background-color: #eff1f170;
+    opacity: 2;
   }
 
-  .swiper-pagination-bullet-active {
+  .custom-swiper .swiper-pagination-bullet-active {
     background-color: #007bff;
     margin-top: 10px;
   }
@@ -70,6 +76,12 @@
   width: 900px;
   height: 450px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .custom-swiper {
+    width: 100%;
+  }
 }
 
 .content-div {
