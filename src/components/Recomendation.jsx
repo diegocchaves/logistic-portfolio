@@ -9,6 +9,7 @@ import avatar1 from "../assets/images/avatar1.svg";
 import avatar2 from "../assets/images/avatar2.svg";
 import avatar3 from "../assets/images/avatar3.svg";
 import avatar4 from "../assets/images/avatar4.svg";
+
 const SuccessStories = () => {
   const stories = [
     {

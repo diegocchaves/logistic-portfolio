@@ -21,30 +21,32 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am a passionate warehouse specialist with over 15 years of
-              experience, specializing in the management of various warehouse
-              management programs, such as workflow in Excel, PDAs (personal
-              digital assistants), KPIs (key performance indicators), and more.
+              I am a warehouse professional with over 15 years of experience in
+              logistics, inventory, and warehouse operations. In 2023, I was
+              promoted to <strong>Team Leader</strong>, a recognition of my
+              strong performance, leadership skills, and ability to manage teams
+              effectively in fast-paced environments.
             </p>
             <br />
             <p>
-              I enjoy optimizing logistics operations and ensuring efficiency at
-              every stage of the process. My experience includes implementing
-              and managing inventory tracking systems, coordinating shipments,
-              and handling data to improve decision-making in the warehouse.
+              My expertise includes implementing and managing inventory tracking
+              systems, coordinating shipments, monitoring KPIs, and optimising
+              workflows using tools such as Excel and PDAs. I focus on driving
+              efficiency, accuracy, and safety at every stage of warehouse
+              operations.
             </p>
             <br />
             <p>
-              In addition, I have skills in handling complex workflows, ensuring
-              accuracy in inventory management and continuous process
-              improvement. My ability to work with various technologies and my
-              proactive approach make me a valuable member of any warehouse
-              team.
+              As a leader, I support and train junior staff, foster
+              collaboration, and ensure compliance with company procedures and
+              safety protocols. My proactive approach and adaptability allow me
+              to continuously improve processes and deliver results that align
+              with operational goals.
             </p>
             <br />
             <p className="text-1xl sm:text-1xl font-bold text-[#ccd6fd]">
               What opportunities could arise with a passionate and proactive
-              warehouse assistant, with a solid 10-year experience and the
+              warehouse specialist, with a solid 15-year experience and the
               ability to optimize any aspect of warehouse management?
             </p>
           </div>
