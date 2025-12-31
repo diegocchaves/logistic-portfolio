@@ -78,8 +78,8 @@ const Contact = () => {
       <div className="flex flex-col text-center text-gray-300 md:py-10">
         <p className="inline text-lg font-bold md:text-xl">[ Contact ]</p>
         <p className="py-4">
-          //Submit the form below or shoot me an email -
-          diegocchaves21@gmail.com
+          {`//Submit the form below or shoot me an email -
+          diegocchaves21@gmail.com`}
         </p>
       </div>
 

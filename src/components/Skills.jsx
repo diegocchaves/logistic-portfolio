@@ -41,7 +41,7 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#28bdec]">
             Skills
           </p>
-          <p className="py-4">// These are the tools I have worked with</p>
+          <p className="py-4">{`// These are the tools I have worked with`}</p>
         </div>
         <div className="grid w-full grid-cols-2 gap-4 py-8 text-center sm:grid-cols-3">
           {skills.map(({ id, name, image }) => (

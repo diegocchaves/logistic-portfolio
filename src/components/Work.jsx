@@ -51,7 +51,7 @@ const Work = () => {
             Work
           </p>
           <p className="py-4">
-            // Take a look at some of the companies I have worked for
+            {`// These are some of the companies I have worked for`}
           </p>
         </div>
         {/* Container */}
@@ -89,32 +89,4 @@ const Work = () => {
     </div>
   );
 };
-
 export default Work;
-
-{
-  /* Grid Item */
-}
-<div
-  style={{
-    backgroundImage: `url(${Interaction})`,
-    backgroundSize: "contain",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
-  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
->
-  {/* Hover Effects */}
-  <div className="flex flex-col items-center justify-center opacity-0 group-hover:opacity-100">
-    <span className="font-bold tracking-wider text-center text-black text-1xl">
-      Interaction Logística e Comércio Ltda
-    </span>
-    <div className="pt-8 text-center">
-      <a href="https://www.econodata.com.br/consulta-empresa/04218292000194-INTERACTION-LOGISTICA-E-COMERCIO-INTERNACIONAL-LTDA">
-        <button className="px-4 py-3 m-2 font-bold text-center text-gray-700 bg-white rounded-lg text-md">
-          Take a look!
-        </button>
-      </a>
-    </div>
-  </div>
-</div>;

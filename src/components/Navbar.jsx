@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { FaBars, FaTimes, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
 import Logo from "../assets/images/logoDC.svg";
